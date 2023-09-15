@@ -1,9 +1,9 @@
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
-    const expenseDate = props.date;
-    const expenseTitle = props.title;
-    const expenseAmount = props.amount;
+    const expenseDate = props.expense.date;
+    const expenseTitle = props.expense.title;
+    const expenseAmount = props.expense.amount;
 
   return (
     <div className="expense-item">
