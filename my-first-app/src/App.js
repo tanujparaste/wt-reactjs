@@ -1,7 +1,9 @@
+import ExpenseItem from "./components/ExpenseItem";
+
 function App() {
   return <div>
-    <h1>Hello World!</h1>
-    <p>Learning ReactJs is fun!</p>
+    <h2>Let's get started!</h2>
+    <ExpenseItem></ExpenseItem>
   </div>;
 }
 
